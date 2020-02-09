@@ -1,5 +1,5 @@
 # Add a little sprinkle to your day by receiving a random quote!
-## The quote will then be analyzed by sentiment analysis to see if you got a very positive, positive, or neutra quote. Think you can get lucky? Why not give it a try! 
+## The quote will then be analyzed by sentiment analysis to see if you got a very positive, positive, or neutral quote. Think you can get lucky? Why not give it a try! 
 
 Here's how to run:
 
