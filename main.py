@@ -6,15 +6,24 @@ from textblob import TextBlob
 app = Flask(__name__)
 
 
+
+
 @app.route("/")
 def home():
+
+    quote = 'Welcome! <a href="random_quote"> Random Quote </a>'
+
+    return quote
+
+
+@app.route("/random_quote")
+def random_quote():
 
     quote = "Welcome! Click below to generate a quote and get an analysis!"
 
     return render_template('index.html', quote=quote)
 
-
-@app.route("/generate_quote/", methods=['POST'])
+@app.route("/random_quote/generate_quote", methods=['POST'])
 # Function used to generate a quote
 def generate_quote():
 
